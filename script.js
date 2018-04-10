@@ -8,13 +8,13 @@ console.log(c);
 
 
 //TASK 2
-const multiply = (x=1, y=1) => { return x * y}
+const multiply = (x=1, y=1) => x * y
 
 console.log(multiply(3,4));
 
 
 //TASK 3
-const average = (...args) => args.reduce((sum, item) => sum + item, 0);
+const average = (...args) => args.reduce((sum, item) => sum + item, 0)/args.length;
 
 console.log(average(2,7,8));
 
